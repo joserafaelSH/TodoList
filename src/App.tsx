@@ -18,10 +18,10 @@ function App() {
     return (
         <Style.WrapperApp>
             <header>
-                <h1>Header do site</h1>
+                <h1>Telegram TodList Manager</h1>
                 <nav>
-                    <Style.WrapperLink to="/"> Home</Style.WrapperLink>
-                    <Style.WrapperLink to="/private"> Pagina privada</Style.WrapperLink>
+                    <Style.WrapperLink to="/"> Cadastro</Style.WrapperLink>
+                    <Style.WrapperLink to="/private"> Login</Style.WrapperLink>
                     {auth.user && <button onClick={handleLogout}>Sair</button>}
                 </nav>
             </header>
